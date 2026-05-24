@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamil Kalmatov | Personal Portfolio</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Personal portfolio of Shamil Kalmatov. Computer Science graduate from American University, currently working at Lucid Motors in San Francisco.">
+    <meta name="keywords" content="Shamil Kalmatov, Portfolio, Computer Science, Lucid Motors, American University, San Francisco, Bishkek, Software, Operations">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <header class="navbar-container">
+        <nav class="navbar" id="navbar">
+            <a href="#" class="nav-logo" id="nav-logo">Shamil Kalmatov<span>.</span></a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#media" class="nav-link">Media</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Light/Dark Theme">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon theme-icon-dark"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun theme-icon-light"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero / Intro Section -->
+        <section id="about" class="hero-section section-padding">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-badge">Welcome to my space</span>
+                    <!-- <h1 class="hero-name">Shamil Kalmatov</h1> -->
+                    <p class="hero-subtitle">
+                        <span class="hero-title-integrated">Hey! My name is Shamil [SHAH-mil].</span> Currently based in San Francisco, I am a Software Support Engineer at Lucid Motors, troubleshooting software bugs, managing vehicle connectivity, and ensuring smooth Over-The-Air (OTA) rollouts.
+                    </p>
+                    <p class="hero-description">
+                        Born in Bishkek, Kyrgyzstan, I relocated to the US in 2021 on a full scholarship to major in Computer Science at American University in Washington D.C. Alongside my academic work, I competed as an NCAA Division I athlete on the wrestling team.</span>
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary" id="hero-contact-btn">Get In Touch</a>
+                        <a href="#experience" class="btn btn-secondary" id="hero-experience-btn">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal">
+                    <div class="profile-card">
+                        <div class="image-border">
+                            <img src="assets/1761520714631.jpeg" alt="Shamil Kalmatov Profile Photo" class="profile-img" id="profile-img">
+                        </div>
+                        <div class="profile-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> San Francisco, CA
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="experience-section section-padding alt-bg">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">My Journey</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                    <p class="section-subtitle">A chronological view of my education and professional timeline.</p>
+                </div>
+                
+                <div class="timeline reveal">
+                    <!-- Timeline Node 4 (Lucid Motors) -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2026 – Present</span>
+                            <div class="timeline-header">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAZlBMVEX///8AAABPT09KSkqrq6uoqKg4ODiJiYm8vLzt7e3Hx8fo6Oj8/PxAQEBTU1Ourq7z8/MTExMhISGXl5fT09Pa2tqioqK5ubnh4eGDg4MmJiYLCwtbW1uQkJAsLCw5OTl0dHRmZmbEC3MgAAABxElEQVR4nO3Y6XKiQBQGUHCLUUGNxsQZTTLv/5JjaMoyJZR0IDVYc84vFvty+UqaJUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfspsevLy2mnNtDBuWWVfVPnV0XFXu/x3Gmd+VSSrOcAusnK6PoxXX5peRpxmlYeiyiRiRDjuqGrXPvZ0KsMa1hxg/I3q6fGy6R6FtXgrG5wMm5s8XtW5EdagYeGymeyi6R6FFS6f9axlR7fCalxnGn6ffy73Laxl2LGqGBKnq7CSxzBgmvQvrKdi+6ZlP0mHYZUn93kh9iysVdi+bdlP0mVYszBi0buwtmH79c0tWndhPZ97Cgttn7OO/0dY4d54bNnZKLqDu7wMwwX03rKz11Av4uXijib4/XmCv7gxtm/t0HxAXVjlf7Sfjw7JJizvFq1am4cqh8aTTV1YyXuxo3cPpYOw9hHW0rdBU1lFJOXMnKbDRiXy2rDOrztZ435OHUW/7uQNC5fNnO9dyzRW1dw0z26Pu3IvL9IPFwVe/qyjxlZP5Nv95PbQr2o+0WwGsYV+8BNNmu/az6A9N12ejJ7/dRsAAAAAAAAAAAAAAAAAAAAAAAAAAABAl/4CT4oQiy6eDXsAAAAASUVORK5CYII=" class="timeline-logo" alt="Lucid Motors Logo">
+                                <h3 class="timeline-title">Lucid Motors</h3>
+                            </div>
+                            <h4 class="timeline-role">Software Support Engineer (Automotive Diagnostics)</h4>
+                            <div class="timeline-desc">
+                                <ul class="timeline-bullets">
+                                    <li>Perform Over-The-Air (OTA) software updates to vehicles and ensure smooth fleet-wide rollouts.</li>
+                                    <li>Identify and troubleshoot complex vehicle connectivity issues involving LTE, Wi-Fi, GPS, and networking.</li>
+                                    <li>Test key telematics and access control modules using Vector tools (CAN/CANoe) and analyze diagnostic logs.</li>
+                                    <li>Collaborate directly with developers and engineering teams to debug embedded ECU/TCU and Infotainment software.</li>
+                                    <li>Interact with internal and external stakeholders to solve field service engineering issues across multiple vehicle domains.</li>
+                                </ul>
+                            </div>
+                            <span class="timeline-tag-badge">SF / In-Person</span>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Node 3 (Codice) -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jul 2025 – Dec 2025</span>
+                            <div class="timeline-header">
+                                <img src="data:image/jpeg;base64,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" class="timeline-logo" alt="Codice Logo">
+                                <h3 class="timeline-title">Codice</h3>
+                            </div>
+                            <h4 class="timeline-role">Customer Operations Specialist</h4>
+                            <div class="timeline-desc">
+                                <ul class="timeline-bullets">
+                                    <li>Orchestrated the end-to-end lifecycle of facility work orders using Salesforce CRM to claim, update, and close tickets.</li>
+                                    <li>Managed the strategic dispatch and reassignment of contractors and craftspersons based on real-time project logistics.</li>
+                                    <li>Verified technical proof of completion by auditing uploaded telemetry, site photography, and cost documentation.</li>
+                                    <li>Utilized the BOTA (Budget/Office/Task/Assignment) interface to coordinate vendor POCs, task dates, and projected PO costs.</li>
+                                </ul>
+                            </div>
+                            <span class="timeline-tag-badge">Washington DC, In-Person</span>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Node 2 (American University) -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Aug 2021 – May 2025</span>
+                            <div class="timeline-header">
+                                <img src="data:image/png;base64,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" class="timeline-logo" alt="American University Logo">
+                                <h3 class="timeline-title">American University</h3>
+                            </div>
+                            <h4 class="timeline-role">B.S. in Computer Science & D1 Student-Athlete</h4>
+                            <p class="timeline-desc">Relocated from Bishkek to Washington D.C. on a full academic and athletic scholarship. Majored in Computer Science with a focus on database structures and logic, graduating in May 2025. Competed on the NCAA Division I wrestling team, <span class="highlight">making history as the first wrestler from Kyrgyzstan to compete at the Division I level.</span></p>
+                            <span class="timeline-tag-badge">Washington D.C.</span>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Node 1 (Bishkek) -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2003</span>
+                            <div class="timeline-header">
+                                <img src="assets/kg.svg" class="timeline-logo flag-logo" alt="Kyrgyzstan Flag">
+                                <h3 class="timeline-title">Bishkek, Kyrgyzstan</h3>
+                            </div>
+                            <h4 class="timeline-role">Early Life</h4>
+                            <p class="timeline-desc">Born and raised in Bishkek, Kyrgyzstan, where my curiosity for computers, logic and athletics began.</p>
+                            <span class="timeline-tag-badge">Bishkek, KGZ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section Removed -->
+
+        <!-- Media Coverages Section -->
+        <section id="media" class="media-section section-padding alt-bg">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">In the Press</span>
+                    <h2 class="section-title">Media & Press</h2>
+                    <p class="section-subtitle">Features, interviews, and coverages highlighting my career milestones and academic highlights.</p>
+                </div>
+
+                <div class="media-carousel-container reveal">
+                    <button class="carousel-control prev hidden" id="media-prev" aria-label="Previous Slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+                    </button>
+                    
+                    <div class="media-carousel-track" id="media-track">
+                        <!-- Media Card 1 (Article) -->
+                        <a href="https://limon.kg/ru/news:86243" target="_blank" rel="noopener noreferrer" class="media-card" id="media-card-1">
+                            <div class="media-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-newspaper"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+                            </div>
+                            <div class="media-card-content">
+                                <span class="media-source">Limon.kg</span>
+                                <h3 class="media-card-title">The first in Kyrgyz history: Shamil from Bishkek became a D1 wrestler in the USA</h3>
+                                <p class="media-card-text">How Shamil Kalmatov made history in US college sports while studying computer science.</p>
+                                <div class="media-card-footer">
+                                    <span>Read Article</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Media Card 2 (YouTube Video) -->
+                        <a href="https://www.youtube.com/watch?v=vw0xl3pJ8ws" target="_blank" rel="noopener noreferrer" class="media-card" id="media-card-2">
+                            <div class="media-card-icon youtube">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play-circle"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                            </div>
+                            <div class="media-card-content">
+                                <span class="media-source">YouTube Feature</span>
+                                <h3 class="media-card-title">Vlog about my experience in the US</h3>
+                                <p class="media-card-text">A video vlog about my experience as a student athlete in the US (156K views).</p>
+                                <div class="media-card-footer">
+                                    <span>Watch Video</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Media Card 3 (Academic Post) -->
+                        <a href="https://www.american.edu/magazine/grinding-away.cfm" target="_blank" rel="noopener noreferrer" class="media-card" id="media-card-3">
+                            <div class="media-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/><path d="M21.5 12v6"/></svg>
+                            </div>
+                            <div class="media-card-content">
+                                <span class="media-source">AU Magazine</span>
+                                <h3 class="media-card-title">Grinding away</h3>
+                                <p class="media-card-text">Article about my journey to American University.</p>
+                                <div class="media-card-footer">
+                                    <span>Read Article</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Media Card 4 (New Article) -->
+                        <a href="https://www.sport-express.ru/martial/mma/reviews/shamil-kalmatov-borec-iz-kirgizii-postupil-v-universitet-ssha-i-teper-poluchaet-stipendiyu-70-000-doldarov-v-god-1939218/" target="_blank" rel="noopener noreferrer" class="media-card" id="media-card-4">
+                            <div class="media-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-newspaper"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+                            </div>
+                            <div class="media-card-content">
+                                <span class="media-source">Sport-Express</span>
+                                <h3 class="media-card-title">A wrestler from Kyrgyzstan became a D1 athlete in the USA and now receives a scholarship of $70,000 a year</h3>
+                                <p class="media-card-text">First article about my journey to the US, made by Russian sports newsletter.</p>
+                                <div class="media-card-footer">
+                                    <span>Read Article</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <button class="carousel-control next" id="media-next" aria-label="Next Slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">Core Competencies</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">The tools, languages, and core operational frameworks I utilize daily.</p>
+                </div>
+
+                <div class="skills-wrapper reveal">
+                    <div class="skills-category">
+                        <h3>Development & Systems</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++ & Linux Systems</span>
+                            <span class="skill-tag">SQL & Databases</span>
+                            <span class="skill-tag">Git & Version Control</span>
+                            <span class="skill-tag">Embedded Software</span>
+                            <span class="skill-tag">Automotive Networking</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3>Diagnostics & Operations</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Automotive Diagnostics</span>
+                            <span class="skill-tag">Vector Tools (CAN/CANoe)</span>
+                            <span class="skill-tag">OTA Update Workflows</span>
+                            <span class="skill-tag">Telematics (TCU/Infotainment)</span>
+                            <span class="skill-tag">Salesforce CRM</span>
+                            <span class="skill-tag">Jira / Confluence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding alt-bg">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">Connect</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Whether you'd like to collaborate, discuss operations, or just say hello, drop me a message.</p>
+                </div>
+
+                <div class="contact-grid reveal">
+                    <!-- Contact Info Cards -->
+                    <div class="contact-info-panel">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="info-details">
+                                <h3>Location</h3>
+                                <p>San Francisco Bay Area, California</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div class="info-details">
+                                <h3>Time Zone</h3>
+                                <p>Pacific Standard Time (PST)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel">
+                        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form" autocomplete="on">
+                            <input type="hidden" name="access_key" value="22b24ed3-c8ad-428a-ae1f-e5de54d92718">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Collaboration Inquiry">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Hi Shamil, I'd love to connect regarding..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                                <span>Send Message</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            </button>
+                        </form>
+                        <div id="form-feedback" class="form-feedback hidden"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">Shamil Kalmatov<span>.</span></a>
+                <p>A personal space reflecting my career journey, media, and experience.</p>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="https://github.com/kalmatovvv" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-link" id="social-github"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a>
+                <a href="https://www.linkedin.com/in/shamil-kalmatov/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-link" id="social-linkedin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                <a href="https://x.com/KalmatovSh70146" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile" class="social-link" id="social-twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg></a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Shamil Kalmatov. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
