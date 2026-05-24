@@ -863,6 +863,7 @@ label {
 .media-card-icon svg {
     width: 22px;
     height: 22px;
+    display: block;
     flex-shrink: 0;
 }
 
@@ -1026,6 +1027,7 @@ label {
 .info-icon svg {
     width: 20px;
     height: 20px;
+    display: block;
     flex-shrink: 0;
 }
 
