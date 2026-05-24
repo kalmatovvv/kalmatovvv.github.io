@@ -860,6 +860,12 @@ label {
     font-size: 20px;
 }
 
+.media-card-icon svg {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
 .media-card-icon.youtube {
     background-color: rgba(239, 68, 68, 0.1);
     color: #ef4444;
@@ -1015,6 +1021,12 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info-icon svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
 }
 
 .info-details h3 {
@@ -1274,6 +1286,8 @@ label {
     
     .mobile-toggle {
         display: flex;
+        width: 44px;
+        height: 44px;
     }
     
     .nav-menu {
